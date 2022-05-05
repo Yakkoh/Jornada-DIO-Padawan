@@ -4,4 +4,4 @@
   
   Apesar das dificuldades, do pouco tempo por conta do trabalho árduo do qual tiro meu sustento, sem sombra de dúvidas este bootcamp está sendo uma das melhores experiências de aprendizado que ja tive o prazer de me dedicar.
     
-  #Dito isso, venho pro meio deste, parabenizar e agradecer toda a equipe da DIO e o pessoal da Spread, por me proporcionar esta experiência incrível. MUITO Obrigado!
+  Dito isso, venho pro meio deste, parabenizar e agradecer toda a equipe da DIO e o pessoal da Spread, por me proporcionar esta experiência incrível. MUITO Obrigado!

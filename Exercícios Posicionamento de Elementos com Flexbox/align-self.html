@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Fundamentos - Align Self</title>
+
+    <style>
+        .flex-container{
+            display: flex;
+            max-width: 350px;
+            border: 1px solid black;
+            margin-bottom: 10px;
+            /* align-items: center; */
+        }
+
+        .item{
+            background-color: turquoise;
+            color: black;
+            font-size: 24px;
+            text-align: center;
+            margin: 5px;
+        }
+
+        .align-container{
+            align-items: center; 
+        }
+
+        .center{
+            align-self: center;
+        }
+
+        .start{
+            align-self: flex-start;
+        }
+
+        .end{
+            align-self: flex-end;
+        }
+
+        .baseline{
+            align-self: baseline;
+        }
+
+        .stretch{
+            align-self: stretch;
+        }
+
+        .auto{
+            align-self: auto;
+        }
+
+        .direction{
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+
+    <h1> Row </h1>
+     <p> Align Container 1 </p>
+    <section class="flex-container align-container">
+        <div class="item auto">111</div>
+        <div class="item auto">22222</div>
+        <div class="item auto">3333</div>
+        <div class="item auto">44</div>
+    </section>
+
+    <p> Align Container 2 </p>
+    <section class="flex-container ">
+        <div class="item stretch">111</div>
+        <div class="item start">22222</div>
+        <div class="item center">3333</div>
+        <div class="item end">44</div>
+    </section>
+
+    <p> Align Container 3 </p>
+    <section class="flex-container">
+        <div class="item stretch">111</div>
+        <div class="item start">22222</div>
+        <div class="item center">3333</div>
+    </section>
+
+    <h1> Column </h1>
+    <p> Align Container 1 </p>
+    <section class="flex-container align-container direction">
+        <div class="item auto">111</div>
+        <div class="item auto">22222</div>
+        <div class="item auto">3333</div>
+        <div class="item auto">44</div>
+    </section>
+
+    <p> Align Container 2 </p>
+    <section class="flex-container direction">
+        <div class="item stretch">111</div>
+        <div class="item start">22222</div>
+        <div class="item center">3333</div>
+        <div class="item end">44</div>
+    </section>
+
+    <p> Align Container 3 </p>
+    <section class="flex-container direction">
+        <div class="item stretch">111</div>
+        <div class="item start">22222</div>
+        <div class="item center">3333</div>
+    </section>  
+</body>
+</html>

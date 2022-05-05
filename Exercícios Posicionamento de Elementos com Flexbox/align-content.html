@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos Align - Content</title>
+
+    <style>
+        .container{
+            height: 400px;
+            max-width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            border: 1px solid black;
+        }
+
+        .item{
+            background-color: orangered;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+            border: 1px solid black;
+        }
+        
+        .stretch{
+            align-content: stretch;
+        }
+
+        .center{
+            align-content: center;
+        }
+
+        .flex-start{
+            align-content: flex-start;
+        }
+
+        .flex-end{
+            align-content: flex-end;
+        }
+
+        .space-between{
+            align-content: space-between;
+        }
+
+        .space-around{
+            align-content: space-around;
+        }
+    </style> 
+</head>
+<body>
+
+    <p> stretch </p>
+    <div class="container stretch">
+        <div class="item">Num hipotético reino de hipocrisia, as pessoas se incomodariam mais com a felicidade dos outros que com sua própria infelicidade. </div>
+        <div class="item">Se você voltar, não será mais o mesmo.</div>
+        <div class="item">Quem cumpre somente a meta estipulada, nunca se supera. Vá sempre além.</div>
+        <div class="item">Ações não valerão menos porque não foram elogiadas.</div>
+        <div class="item">Se queres mentir bem, aprende antes a dizer a verdade.</div>
+        <div class="item">Mesmo a menor pessoa pode mudar o curso da história.</div>
+        <div class="item">Nem tudo que é ouro brilha, nem todos os que vagueiam estão perdidos.</div>
+    </div>
+
+    <p> center </p>
+    <div class="container center">
+        <div class="item">Num hipotético reino de hipocrisia, as pessoas se incomodariam mais com a felicidade dos outros que com sua própria infelicidade. </div>
+        <div class="item">Se você voltar, não será mais o mesmo.</div>
+        <div class="item">Quem cumpre somente a meta estipulada, nunca se supera. Vá sempre além.</div>
+        <div class="item">Ações não valerão menos porque não foram elogiadas.</div>
+        <div class="item">Se queres mentir bem, aprende antes a dizer a verdade.</div>
+        <div class="item">Mesmo a menor pessoa pode mudar o curso da história.</div>
+        <div class="item">Nem tudo que é ouro brilha, nem todos os que vagueiam estão perdidos.</div>
+    </div>
+
+    <p> flex - start </p>
+    <div class="container flex-start">
+        <div class="item">Num hipotético reino de hipocrisia, as pessoas se incomodariam mais com a felicidade dos outros que com sua própria infelicidade. </div>
+        <div class="item">Se você voltar, não será mais o mesmo.</div>
+        <div class="item">Quem cumpre somente a meta estipulada, nunca se supera. Vá sempre além.</div>
+        <div class="item">Ações não valerão menos porque não foram elogiadas.</div>
+        <div class="item">Se queres mentir bem, aprende antes a dizer a verdade.</div>
+        <div class="item">Mesmo a menor pessoa pode mudar o curso da história.</div>
+        <div class="item">Nem tudo que é ouro brilha, nem todos os que vagueiam estão perdidos.</div>
+    </div>
+
+    <p> flex - end </p>
+    <div class="container flex-end">
+        <div class="item">Num hipotético reino de hipocrisia, as pessoas se incomodariam mais com a felicidade dos outros que com sua própria infelicidade. </div>
+        <div class="item">Se você voltar, não será mais o mesmo.</div>
+        <div class="item">Quem cumpre somente a meta estipulada, nunca se supera. Vá sempre além.</div>
+        <div class="item">Ações não valerão menos porque não foram elogiadas.</div>
+        <div class="item">Se queres mentir bem, aprende antes a dizer a verdade.</div>
+        <div class="item">Mesmo a menor pessoa pode mudar o curso da história.</div>
+        <div class="item">Nem tudo que é ouro brilha, nem todos os que vagueiam estão perdidos.</div>
+    </div>
+
+    <p> space - between </p>
+    <div class="container space-between">
+        <div class="item">Num hipotético reino de hipocrisia, as pessoas se incomodariam mais com a felicidade dos outros que com sua própria infelicidade. </div>
+        <div class="item">Se você voltar, não será mais o mesmo.</div>
+        <div class="item">Quem cumpre somente a meta estipulada, nunca se supera. Vá sempre além.</div>
+        <div class="item">Ações não valerão menos porque não foram elogiadas.</div>
+        <div class="item">Se queres mentir bem, aprende antes a dizer a verdade.</div>
+        <div class="item">Mesmo a menor pessoa pode mudar o curso da história.</div>
+        <div class="item">Nem tudo que é ouro brilha, nem todos os que vagueiam estão perdidos.</div>
+    </div>
+
+    <p> space - around </p>
+    <div class="container space-around">
+        <div class="item">Num hipotético reino de hipocrisia, as pessoas se incomodariam mais com a felicidade dos outros que com sua própria infelicidade. </div>
+        <div class="item">Se você voltar, não será mais o mesmo.</div>
+        <div class="item">Quem cumpre somente a meta estipulada, nunca se supera. Vá sempre além.</div>
+        <div class="item">Ações não valerão menos porque não foram elogiadas.</div>
+        <div class="item">Se queres mentir bem, aprende antes a dizer a verdade.</div>
+        <div class="item">Mesmo a menor pessoa pode mudar o curso da história.</div>
+        <div class="item">Nem tudo que é ouro brilha, nem todos os que vagueiam estão perdidos.</div>
+    </div>
+</body>
+</html>

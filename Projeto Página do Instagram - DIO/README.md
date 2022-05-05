@@ -1,5 +1,3 @@
-# Oi, tudo bem? Sou o Yago, poderia deixar um feedback? 🙃
+# Projeto Recontruindo a Página do Instagram com HTML, CSS e FlexBox.
 
-Esse é o repositório  de Flexbox, na qual fiz uma releitura da interface de login do Instagram! 
-
-##  Bora Codar! 
+Este projeto me ajudou imensamente a por em pratica todos os ensinamentos dos módulos anteriores do curso, linkando completamente os conteúdos de um módulo ao outro.
